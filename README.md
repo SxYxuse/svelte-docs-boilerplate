@@ -1,7 +1,3 @@
----
-title: 'Svelte 5 Documentation Boilerplate'
----
-
 # Svelte 5 Documentation Boilerplate
 
 This project is a boilerplate for creating documentation with Svelte 5. It is designed to handle Markdown files, making it easy to write and manage your documentation.
