@@ -14,20 +14,18 @@ If you have any suggestions or concerns, please consider opening a new issue.
 
 ## Setup
 
-Setting up and managing your documentation with this Svelte 5 Documentation Boilerplate is straightforward. Here are the steps you need to follow:
+**Clone the repository :** Start by cloning the boilerplate repository to your local machine. You can do this by running
 
-1. **Clone the repository:** Start by cloning the boilerplate repository to your local machine. You can do this by running `git clone https://github.com/SxYxuse/svelte-docs-boilerplate.git`.
+```untype
+git clone https://github.com/SxYxuse/svelte-docs-boilerplate.git
+```
 
-2. **Install dependencies:** Navigate into the cloned repository and install the necessary dependencies by running `npm install`.
+**Install dependencies :** Navigate into the cloned repository and install the necessary dependencies by running
 
-3. **Start the development server:** You can start the local development server by running `npm dev`. This will start the server, and you can view your documentation at `http://localhost:5173`.
+```untype
+npm install
+```
 
-4. **Adding content:** To add new content, create a new Markdown file in the `src/content` directory. The name of the file will be the route for that content. For example, if you create `about.md`, the content will be accessible at `http://localhost:5000/about`. To handle the routes edit the `src/lib/config/navigations.ts`.
-
-5. **Editing content:** To edit existing content, simply open the corresponding Markdown file in your text editor and make your changes. The development server will automatically reload the page when you save your changes.
-
-6. **Building for production:** When you're ready to publish your documentation, run `npm run build`. This will create a `public` directory with your compiled project. You can then deploy this directory to your preferred hosting provider.
-
-Remember, the power of this boilerplate is in its simplicity and flexibility. You can easily customize it to suit your project's needs.
+**Adding content :** To add new content, create a new Markdown file in the `src/content` directory. The name of the file will be the route for that content. For example, if you create `about.md`, the content will be accessible at `http://localhost:5000/about`. To handle the routes, edit the `src/lib/config/navigations.ts` file.
 
 _Created by [SxYxuse](https://github.com/SxYxuse)_
